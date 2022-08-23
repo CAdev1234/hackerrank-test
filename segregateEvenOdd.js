@@ -1,4 +1,4 @@
-function segregateEvenOdd3(arr) {
+function segregateEvenOdd(arr) {
     // [...even, ...odd]
     let res = 0,
         left = 0,
@@ -25,7 +25,7 @@ function segregateEvenOdd3(arr) {
     return res;
 }
 
-function segregateEvenOdd4(arr) {
+function segregateOddEven(arr) {
     // [...odd, ...even]
     let res = 0,
         left = 0,
